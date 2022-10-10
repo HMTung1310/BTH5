@@ -43,6 +43,11 @@ public class NhanSu extends Nguoi{
 		System.out.println("he so luong :"+hesoLuong);
 		System.out.println("luong co ban :"+luongcoban);
 	 
-	}
+	public static void main(String[]args){
+	NhanSu ns= new NhanSu();
+	ns.nhapTTNS();
+	System.out.println("THONG TINH BAN VUA NHAP ");
+	ns.xuatTTNS();
 	}
 
+	}
