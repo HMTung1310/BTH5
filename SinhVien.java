@@ -20,7 +20,7 @@ public void NhapSV() {
 	maSV=sc.nextInt();
 	n.nhapTT();
 	System.out.print("Nhap ten lop :");
-    lop=sc.nextLine();
+    lop=sc.next();
 	System.out.print("Nhap diem 1 :");
 	diem1=sc.nextFloat();
 	System.out.print("Nhap diem 2 :");
