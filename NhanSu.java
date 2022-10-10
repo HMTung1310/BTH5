@@ -46,7 +46,7 @@ public class NhanSu extends Nguoi{
 	public static void main(String[]args){
 	NhanSu ns= new NhanSu();
 	ns.nhapTTNS();
-	System.out.println("THONG TINH BAN VUA NHAP ");
+	System.out.println("THONG TIN BAN VUA NHAP ");
 	ns.xuatTTNS();
 	}
 
